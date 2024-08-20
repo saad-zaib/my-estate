@@ -1,0 +1,23 @@
+/* styles.css */
+.chat-scrollbar {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #4a5568 #e2e8f0; /* For Firefox */
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar {
+    width: 8px; /* For Chrome, Safari, and Edge */
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-track {
+    background: #e2e8f0; /* Track color */
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-thumb {
+    background: #4a5568; /* Scrollbar color */
+    border-radius: 8px; /* Round scrollbar corners */
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #2d3748; /* Darker color when hovering */
+  }
+  
